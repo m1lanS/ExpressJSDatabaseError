@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Manager</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-qCiQbJyeD0EnjV01g7pD0bO/9uzS8gEU6PIBMkI2Q/td+Wq1RvjRGhIOA1PhzHtx" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4 mb-4">Artists Manager</h1>
+
+        <h2 class="mt-4 mb-3">Artists</h2>
+        <ul id="albumList" class="list-group"></ul>
+
+        <h2 class="mt-4 mb-3">Add New Artist</h2>
+        <div class="input-group mb-3">
+            <input type="text" id="albumTitle" class="form-control" placeholder="Enter Artist title">
+            <button class="btn btn-primary" type="button" onclick="addArtist()">Add Artist</button>
+        </div>
+    </div>
+
+    <script src="frontend.js"></script>
+</body>
+</html>
